@@ -1,0 +1,20 @@
+# Core dependencies for both the webcam recognition script and the notebook
+opencv-python>=4.5.0
+numpy>=1.21.0
+mediapipe>=0.10.0
+
+# Model loading and inference (scikit-learn MLP)
+scikit-learn>=1.0.0
+joblib>=1.0.0
+
+# Optional text-to-speech (used by webcam_recognition.py when 't' key is pressed)
+pyttsx3>=2.90
+
+# Optional: needed only if you run the TensorFlow CNN training cell in the notebook
+# or if you use the .keras model instead of the scikit-learn model.
+tensorflow>=2.12.0
+
+# Notebook visualization dependencies (for ASL_Recognition copy.ipynb)
+matplotlib>=3.5.0
+seaborn>=0.11.0
+ipython>=7.0.0
