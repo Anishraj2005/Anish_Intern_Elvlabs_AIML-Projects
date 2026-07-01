@@ -124,41 +124,6 @@ Anish_Intern_Elvlabs_AIML-Projects/
 
 ---
 
-## ⚙️ How to Run
-
-### 1️⃣ Clone the repository
-
-```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
-```
-
-### 2️⃣ Run Project 1 — Fraud Detection
-
-```bash
-cd Anish_Intern_Elvlabs_AIML-Project-1-Credit-Card-Fraud-Detection
-pip install -r requirements.txt
-jupyter notebook
-```
-
-Open: `Credit Card Fraud Detection.ipynb`
-
-### 3️⃣ Run Project 2 — ASL Recognition
-
-```bash
-cd Anish_Intern_Elvlabs_AIML-Project-2-Rea-Time-Sign-Language-Recognition
-pip install -r requirements.txt
-jupyter notebook ASL_Recognition.ipynb
-```
-
-For live webcam inference:
-
-```bash
-python webcam_recognition.py
-```
-
----
-
 ## 🧠 Key Learnings
 
 - Accuracy is misleading in imbalanced datasets
